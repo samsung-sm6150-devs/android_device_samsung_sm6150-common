@@ -156,7 +156,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor:32 \
     libgrallocusage.vendor \
     libstdc++ \
-    libstdc++.vendor \
+    libstdc++_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
 
