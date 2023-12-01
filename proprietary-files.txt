@@ -288,7 +288,7 @@ vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.mdfpp.so
+vendor/lib64/hw/gatekeeper.mdfpp.so|255c1b286e6685133bc7bf275cf68b5900607e1b
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
