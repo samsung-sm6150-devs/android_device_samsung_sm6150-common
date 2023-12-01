@@ -504,6 +504,15 @@
         </interface>
         <fqname>@2.0::ISehGnss/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.samsung.hardware.health</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>ISehHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="aidl">
         <name>vendor.samsung.hardware.media.converter</name>
         <fqname>ISehColorConverterStore/default</fqname>
