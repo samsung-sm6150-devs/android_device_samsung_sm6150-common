@@ -626,15 +626,17 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     ConnectivityOverlay \
     hostapd \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl \
     libwifi-hal-qcom \
     libwpa_client \
     SoftapOverlay \
     TetheringConfigOverlay \
+    vendor.qti.hardware.wifi.hostapd@1.1.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.0.vendor \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
-    vendor.qti.hardware.wifi.hostapd@1.1.vendor \
-    vendor.qti.hardware.wifi.supplicant@2.0.vendor \
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/rootdir/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
