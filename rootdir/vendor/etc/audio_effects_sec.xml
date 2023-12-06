@@ -18,7 +18,6 @@
         <library name="soundbooster_plus" path="libsamsungSoundbooster_plus.so"/>
         <library name="pre_processing" path="libqcomvoiceprocessing.so"/>
         <library name="playbackrecorder" path="libplaybackrecorder.so"/>
-        <library name="vr360audio" path="libgearvr.so"/>
         <library name="dap" path="libswdap.so"/>
     </libraries>
 
@@ -51,12 +50,12 @@
         <effect name="aec" library="pre_processing" uuid="0f8d0d2a-59e5-45fe-b6e4-248c8a799109"/>
         <effect name="ns" library="pre_processing" uuid="1d97bb0b-9e2f-4403-9ae3-58c2554306f8"/>
         <effect name="playbackrecorder" library="playbackrecorder" uuid="517a26c0-fd7c-11e5-a837-0800200c9a66"/>
-        <effect name="vr3d" library="vr360audio" uuid="e6388202-e7a4-4c72-b68a-332eeeba269b"/>
     <!-- Supporting Dolby offload effect -->
         <effectProxy name="dap_proxy" library="proxy" uuid="9d4921da-8225-4f29-aefa-39537a04bcaa">
             <libsw library="dap" uuid="6ab06da4-c516-4611-8166-452799218539"/>
             <libhw library="offload" uuid="a0c30891-8246-4aef-b8ad-d53e26da0253"/>
         </effectProxy>
+        <effect name="volumemonitor_hw" library="offload" uuid="052a63b0-f95a-11e9-8f0b-362b9e155667"/>
     </effects>
 
     <preprocess>

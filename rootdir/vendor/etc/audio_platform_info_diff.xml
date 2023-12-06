@@ -39,6 +39,7 @@
         <device name="SND_DEVICE_OUT_WIFI_CALL_DEX_SPEAKER_EVS" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_DEX_SPEAKER" acdb_id="15"/>
+        <device name="SND_DEVICE_OUT_VOIP_COMM_TV_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOIP_FMC_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOIP_FMC_DEX_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_FM_SPEAKER" acdb_id="15"/>
@@ -91,6 +92,7 @@
         <device name="SND_DEVICE_OUT_WIFI_CALL_DEX_SPEAKER_EVS" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_DEX_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_VOIP_COMM_TV_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOIP_FMC_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOIP_FMC_DEX_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_LOOPBACK_SPEAKER" backend="speaker" interface="SEC_MI2S_RX"/>
