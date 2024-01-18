@@ -601,8 +601,8 @@ vendor/lib64/libqrtr.so|6f7abe88e19e44f6b933de1cac0c7a3437318f04
 vendor/lib64/libqsocket.so|391748e46f7dbbf267dbc5a5c89f0d2a8b4fca4e
 -vendor/lib64/libril.so|58d4402730fa3be354b38e1e61ee174ee3daecce
 vendor/lib64/librilqmiservices-ext.so|5d304da8bb7ce23be0cb1eaba8c4fdc87546fd18
-vendor/lib64/libsec-ril-dsds.so|7aeeccbca3730b4d9cb9fba6b06c49dfe7a2052f
-vendor/lib64/libsec-ril.so|94bb3426a636263c4daf45e633e8061232c30954
+vendor/lib64/libsec-ril-dsds.so|79e1bdc9f45261ea2f7e118ebe5424ccc567cf19
+vendor/lib64/libsec-ril.so|c2c24dae6677b8c2e0fc22b47a8f23b27b1aba38
 vendor/lib64/libsec_semRil.so|36cd8dc9997351f709b138bfe952acaae7704bc8
 vendor/lib64/libsecril-client.so|73978f39bb8ab4d80bb2aa7747c129ae8b262aa2
 vendor/lib64/libvkmanager_vendor.so|e50eaf44eeb61bcd1501f6b6319d794b1b2cac40
